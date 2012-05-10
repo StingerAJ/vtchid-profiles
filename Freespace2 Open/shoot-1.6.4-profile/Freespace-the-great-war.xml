@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--- - - - -This profile created with Digital_Trucker's Shoot Profile Editor- - - - - - -->
+<!--- - - please address all correspondence to Digital.Trucker@Yahoo.com - - - - - -->
+<shoot-config>
+    <command-list key-delay="50" key-pause="10">
+        <command name="All FIGHTERS Attack Target" phrase="Attack target">
+            <sequence keys="C31" />
+        </command>
+        <command name="All FIGHTERS Disable Target" phrase="Disable target">
+            <sequence keys="C32" />
+        </command>
+        <command name="All FIGHTERS Disarm Target" phrase="Disarm target">
+            <sequence keys="C33" />
+        </command>
+        <command name="All FIGHTERS Attack Subsystem" phrase="Attack Subsystem">
+            <sequence keys="C34" />
+        </command>
+        <command name="All FIGHTERS Protect my Target" phrase="Protect target">
+            <sequence keys="C35" />
+        </command>
+        <command name="All FIGHTERS Ignore my Target" phrase="Ignore target">
+            <sequence keys="C36" />
+        </command>
+        <command name="All FIGHTERS Form On Me" phrase="Form on me">
+            <sequence keys="C37" />
+        </command>
+        <command name="All FIGHTERS Cover Me" phrase="Cover me">
+            <sequence keys="C38" />
+        </command>
+        <command name="All FIGHTERS Engage Enemy" phrase="Engage enemy">
+            <sequence keys="C39" />
+        </command>
+        <command name="ALL FIGHTERS Depart" phrase="All Fighters Depart">
+            <sequence keys="c30" />
+        </command>
+        <command name="FIRST WING Attack Target" phrase="First Wing Attack Target">
+            <sequence keys="c211" />
+        </command>
+        <command name="FIRST WING Disable Target" phrase="First Wing Disable Target">
+            <sequence keys="c212" />
+        </command>
+        <command name="FIRST WING Disarm Target" phrase="First Wing Disarm Target">
+            <sequence keys="c213" />
+        </command>
+        <command name="FIRST WING Attack Subsystem" phrase="First Wing Attack Subsystem">
+            <sequence keys="c214" />
+        </command>
+        <command name="FIRST WING Protect Target" phrase="First Wing Protect Target">
+            <sequence keys="c215" />
+        </command>
+        <command name="FIRST WING Ignore Target" phrase="First Wing Ignore Target">
+            <sequence keys="c216" />
+        </command>
+        <command name="FIRST WING Form On Me" phrase="First Wing Form On Me">
+            <sequence keys="c217" />
+        </command>
+        <command name="FIRST WING Cover Me" phrase="First Wing Cover Me">
+            <sequence keys="c218" />
+        </command>
+        <command name="FIRST WING Engage Enemy" phrase="First Wing Engage Enemy">
+            <sequence keys="c219" />
+        </command>
+        <command name="SECOND WING Attack Target" phrase="Second Wing Attack Target">
+            <sequence keys="c221" />
+        </command>
+        <command name="SECOND WING Disable Target" phrase="Second Wing Disable Target">
+            <sequence keys="c222" />
+        </command>
+        <command name="SECOND WING Disarm Target" phrase="Second Wing Disarm Target">
+            <sequence keys="c223" />
+        </command>
+        <command name="SECOND WING Attack Subsystem" phrase="Second Wing Attack Subsystem">
+            <sequence keys="c224" />
+        </command>
+        <command name="SECOND WING Protect Target" phrase="Second Wing Protect Target">
+            <sequence keys="c225" />
+        </command>
+        <command name="SECOND WING Ignore Target" phrase="Second Wing Ignore Target">
+            <sequence keys="c226" />
+        </command>
+        <command name="SECOND WING Form On Me" phrase="Second Wing Form On Me">
+            <sequence keys="c227" />
+        </command>
+        <command name="SECOND WING Cover Me" phrase="Second Wing Cover Me">
+            <sequence keys="c228" />
+        </command>
+        <command name="SECOND WING Engage Enemy" phrase="Second Wing Engage Enemy">
+            <sequence keys="c229" />
+        </command>
+        <command name="THIRD WING Attack Target" phrase="Third Wing Attack Target">
+            <sequence keys="c231" />
+        </command>
+        <command name="THIRD WING Disable Target" phrase="Third Wing Disable Target">
+            <sequence keys="c232" />
+        </command>
+        <command name="THIRD WING Disarm Target" phrase="Third Wing Disarm Target">
+            <sequence keys="c233" />
+        </command>
+        <command name="THIRD WING Attack Subsystem" phrase="Third Wing Attack Subsystem">
+            <sequence keys="c234" />
+        </command>
+        <command name="THIRD WING Protect Target" phrase="Third Wing Protect Target">
+            <sequence keys="c235" />
+        </command>
+        <command name="THIRD WING Ignore Target" phrase="Third Wing Ignore Target">
+            <sequence keys="c236" />
+        </command>
+        <command name="THIRD WING Form On Me" phrase="Third Wing Form On Me">
+            <sequence keys="c237" />
+        </command>
+        <command name="THIRD WING Cover Me" phrase="Third Wing Cover Me">
+            <sequence keys="c238" />
+        </command>
+        <command name="THIRD WING Engage Enemy" phrase="Third Wing Engage Enemy">
+            <sequence keys="c239" />
+        </command>
+        <command name="FOURTH WING Attack Target" phrase="Fourth Wing Attack Target">
+            <sequence keys="c241" />
+        </command>
+        <command name="FOURTH WING Disable Target" phrase="Fourth Wing Disable Target">
+            <sequence keys="c242" />
+        </command>
+        <command name="FOURTH WING Disarm Target" phrase="Fourth Wing Disarm Target">
+            <sequence keys="c243" />
+        </command>
+        <command name="FOURTH WING Attack Subsystem" phrase="Fourth Wing Attack Subsystem">
+            <sequence keys="c244" />
+        </command>
+        <command name="FOURTH WING Protect Target" phrase="Fourth Wing Protect Target">
+            <sequence keys="c245" />
+        </command>
+        <command name="FOURTH WING Ignore Target" phrase="Fourth Wing Ignore Target">
+            <sequence keys="c246" />
+        </command>
+        <command name="FOURTH WING Form On Me" phrase="Fourth Wing Form On Me">
+            <sequence keys="c247" />
+        </command>
+        <command name="FOURTH WING Cover Me" phrase="Fourth Wing Cover Me">
+            <sequence keys="c248" />
+        </command>
+        <command name="FOURTH WING Engage Enemy" phrase="Fourth Wing Engage Enemy">
+            <sequence keys="c249" />
+        </command>
+        <command name="Target Bomb" phrase="Target Bomb">
+            <key type="b" />
+        </command>
+        <command name="Target Repair Ship" phrase="Target Repair Ship">
+            <key type="ALT R" />
+        </command>
+        <command name="Target Previous Bomb" phrase="Target Previous Bomb">
+            <key type="SHIFT B" />
+        </command>
+        <command name="Target Turret" phrase="Target Turret">
+            <key type="k" />
+        </command>
+        <command name="Target Previous Turret" phrase="Target Previous Turret">
+            <key type="SHIFT K" />
+        </command>
+        <command name="Target" phrase="Target">
+            <key type="T" />
+        </command>
+        <command name="Target Escort" phrase="Target Escort">
+            <key type="E" />
+        </command>
+        <command name="Engage Subspace Drive" phrase="Engage Subspace Drive">
+            <key type="ALT J" />
+        </command>
+        <command name="Target Newest Ship" phrase="Target newest ship">
+            <key type="N" />
+        </command>
+        <command name="Target Uninspected Cargo" phrase="Target uninspected cargo">
+            <key type="U" />
+        </command>
+        <command name="Target Previous Uninspected Cargo" phrase="Target previous uninspected cargo">
+            <key type="SHIFT U" />
+        </command>
+        <command name="Target next Subsystem" phrase="Target next Subsystem">
+            <key type="S" />
+        </command>
+        <command name="Target Previous Subsystem" phrase="Target previous Subsystem">
+            <key type="SHIFT S" />
+        </command>
+        <command name="Target nearest attacker" phrase="Target nearest attacker">
+            <key type="G" />
+        </command>
+        <command name="Auto Speed" phrase="Auto speed">
+            <key type="ALT M" />
+        </command>
+        <command name="Match Speed" phrase="Match speed">
+            <key type="M" />
+        </command>
+        <command name="Auto Target" phrase="Auto target">
+            <key type="ALT H" />
+        </command>
+        <command name="Equalize Shields" phrase="equalize">
+            <key type="q" />
+        </command>
+        <command name="Augment forward shield" phrase="forward shield">
+            <key type="Up" />
+        </command>
+        <command name="Augment rear shield" phrase="rear shield">
+            <key type="Down" />
+        </command>
+        <command name="Augment left shield" phrase="left shield">
+            <key type="Left" />
+        </command>
+        <command name="Augment right shield" phrase="right shield">
+            <key type="Right" />
+        </command>
+        <command name="Increase shield energy" phrase="Increase shield energy">
+            <key type="Home" />
+        </command>
+        <command name="Decrease shield energy" phrase="Decrease shield energy">
+            <key type="End" />
+        </command>
+        <command name="Full shield energy" phrase="Full poewr to shields">
+            <key type="Home" repeat="4" />
+        </command>
+        <command name="Increase weapon energy" phrase="Increase weapon energy">
+            <key type="Insert" />
+        </command>
+        <command name="Decrease weapon energy" phrase="Decrease weapon energy">
+            <key type="Delete" />
+        </command>
+        <command name="Full weapon energy" phrase="Full power to weapons">
+            <key type="Insert" repeat="4" />
+        </command>
+        <command name="Increase engine energy" phrase="Increase engine energy">
+            <key type="PageUp" />
+        </command>
+        <command name="Decrease engine energy" phrase="Decrease engine energy">
+            <key type="PageDown" />
+        </command>
+        <command name="Full engine energy" phrase="Full power to engines">
+            <key type="PageUp" repeat="4" />
+        </command>
+        <command name="Equalize energy settings" phrase="normal energy">
+            <key type="ALT D" />
+        </command>
+        <command name="Resupply" phrase="resupply">
+            <sequence keys="c5" />
+        </command>
+        <command name="Chase View" phrase="Chase View">
+            <key type="Numpad*" />
+        </command>
+        <command name="Current Target View" phrase="Current Target View">
+            <key type="Numpad/" />
+        </command>
+        <command name="External View" phrase="External View">
+            <key type="Numpad." />
+        </command>
+        <command name="Center View" phrase="Center View">
+            <key type="Numpad5" />
+        </command>
+    </command-list>
+    <push-to-talk initial-state="off">
+        <toggle>
+            <key type="ScrollLock" />
+        </toggle>
+        <hold on-press="enable">
+			      <button device="1" number="29" />
+        </hold>
+    </push-to-talk>
+    <sounds>
+        <sound type="recognized" source="affirmative.wav" volume="80" pan="0" />
+        <sound type="not-recognized" source="unable_to_comply.wav" volume="80" pan="0" />
+        <sound type="speech-enabled" source="speechenabled.wav" volume="100" pan="0" />
+        <sound type="speech-disabled" source="speechdisabled.wav" volume="100" pan="0" />
+    </sounds>
+</shoot-config>

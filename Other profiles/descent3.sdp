@@ -1,0 +1,985 @@
+;;;; -*- coding: utf-8; -*-
+;;;; S-expression Device Profile
+
+(profile
+ (name . "descent3")
+ )
+
+(parameter
+ (button
+  (threshold . #x14)
+  )
+
+ (axis
+  (lower-threshold . #x02)
+  (upper-threshold . #xfd)
+  )
+
+ (modifier
+  (initial . #x0000)
+  )
+
+ (light
+  (auto . 1)
+  (slowly-off-speed . 20)
+  )
+ )
+
+(action-list
+ ("null action"
+  )
+
+ ("axis X motion"
+  (joystick through x)
+  )
+
+ ("axis Y motion"
+  (joystick through y)
+  )
+
+ ("axis RX motion"
+  (joystick through rx)
+  )
+
+ ("axis RY motion"
+  (joystick through ry)
+  )
+
+ ("axis RZ motion"
+  (joystick through rz)
+  )
+
+ ("axis Z 0/6"
+  (joystick specify z 0)
+  )
+
+ ("axis Z 1/6"
+  (joystick specify z 42)
+  )
+
+ ("axis Z 2/6"
+  (joystick specify z 85)
+  )
+
+ ("axis Z 3/6"
+  (joystick specify z 127)
+  )
+
+ ("axis Z 4/6"
+  (joystick specify z 170)
+  )
+
+ ("axis Z 5/6"
+  (joystick specify z 212)
+  )
+
+ ("axis Z 6/6"
+  (joystick specify z 255)
+  )
+
+ ("axis throttle motion"
+  (joystick through throttle)
+  )
+
+ ("axis Slider 0/15"
+  (joystick specify slider 0)
+  )
+
+ ("axis Slider 1/15"
+  (joystick specify slider 17)
+  )
+
+ ("axis Slider 2/15"
+  (joystick specify slider 34)
+  )
+
+ ("axis Slider 3/15"
+  (joystick specify slider 51)
+  )
+
+ ("axis Slider 4/15"
+  (joystick specify slider 68)
+  )
+
+ ("axis Slider 5/15"
+  (joystick specify slider 85)
+  )
+
+ ("axis Slider 6/15"
+  (joystick specify slider 102)
+  )
+
+ ("axis Slider 7/15"
+  (joystick specify slider 119)
+  )
+
+ ("axis Slider 8/15"
+  (joystick specify slider 136)
+  )
+
+ ("axis Slider 9/15"
+  (joystick specify slider 153)
+  )
+
+ ("axis Slider 10/15"
+  (joystick specify slider 170)
+  )
+
+ ("axis Slider 11/15"
+  (joystick specify slider 187)
+  )
+
+ ("axis Slider 12/15"
+  (joystick specify slider 204)
+  )
+
+ ("axis Slider 13/15"
+  (joystick specify slider 221)
+  )
+
+ ("axis Slider 14/15"
+  (joystick specify slider 238)
+  )
+
+ ("axis Slider 15/15"
+  (joystick specify slider 255)
+  )
+
+ ("button 1 press"
+  (joystick maximum (button 1))
+  )
+
+ ("button 1 release"
+  (joystick minimum (button 1))
+  )
+
+ ("button 2 press"
+  (joystick maximum (button 2))
+  )
+
+ ("button 2 release"
+  (joystick minimum (button 2))
+  )
+
+ ("button 3 press"
+  (joystick maximum (button 3))
+  )
+
+ ("button 3 release"
+  (joystick minimum (button 3))
+  )
+
+ ("button 4 press"
+  (joystick maximum (button 4))
+  )
+
+ ("button 4 release"
+  (joystick minimum (button 4))
+  )
+
+ ("button 5 press"
+  (joystick maximum (button 5))
+  )
+
+ ("button 5 release"
+  (joystick minimum (button 5))
+  )
+
+ ("button 6 press"
+  (joystick maximum (button 6))
+  )
+
+ ("button 6 release"
+  (joystick minimum (button 6))
+  )
+
+ ("button 7 press"
+  (joystick maximum (button 7))
+  )
+
+ ("button 7 release"
+  (joystick minimum (button 7))
+  )
+
+ ("button 8 press"
+  (joystick maximum (button 8))
+  )
+
+ ("button 8 release"
+  (joystick minimum (button 8))
+  )
+
+ ("button 9 press"
+  (joystick maximum (button 9))
+  )
+
+ ("button 9 release"
+  (joystick minimum (button 9))
+  )
+
+ ("button 10 press"
+  (joystick maximum (button 10))
+  )
+
+ ("button 10 release"
+  (joystick minimum (button 10))
+  )
+
+ ("button 11 press"
+  (joystick maximum (button 11))
+  )
+
+ ("button 11 release"
+  (joystick minimum (button 11))
+  )
+
+ ("button 12 press"
+  (joystick maximum (button 12))
+  )
+
+ ("button 12 release"
+  (joystick minimum (button 12))
+  )
+
+ ("button 13 press"
+  (joystick maximum (button 13))
+  )
+
+ ("button 13 release"
+  (joystick minimum (button 13))
+  )
+
+ ("button 14 press"
+  (joystick maximum (button 14))
+  )
+
+ ("button 14 release"
+  (joystick minimum (button 14))
+  )
+
+ ("button 15 press"
+  (joystick maximum (button 15))
+  )
+
+ ("button 15 release"
+  (joystick minimum (button 15))
+  )
+
+ ("button 16 press"
+  (joystick maximum (button 16))
+  )
+
+ ("button 16 release"
+  (joystick minimum (button 16))
+  )
+
+ ("button 17 press"
+  (joystick maximum (button 17))
+  )
+
+ ("button 17 release"
+  (joystick minimum (button 17))
+  )
+
+ ("button 18 press"
+  (joystick maximum (button 18))
+  )
+
+ ("button 18 release"
+  (joystick minimum (button 18))
+  )
+
+ ("button 19 press"
+  (joystick maximum (button 19))
+  )
+
+ ("button 19 release"
+  (joystick minimum (button 19))
+  )
+
+ ("button 20 press"
+  (joystick maximum (button 20))
+  )
+
+ ("button 20 release"
+  (joystick minimum (button 20))
+  )
+
+ ("button 21 press"
+  (joystick maximum (button 21))
+  )
+
+ ("button 21 release"
+  (joystick minimum (button 21))
+  )
+
+ ("button 22 press"
+  (joystick maximum (button 22))
+  )
+
+ ("button 22 release"
+  (joystick minimum (button 22))
+  )
+
+ ("button 23 press"
+  (joystick maximum (button 23))
+  )
+
+ ("button 23 release"
+  (joystick minimum (button 23))
+  )
+
+ ("button 24 press"
+  (joystick maximum (button 24))
+  )
+
+ ("button 24 release"
+  (joystick minimum (button 24))
+  )
+
+ ("button 25 press"
+  (joystick maximum (button 25))
+  )
+
+ ("button 25 release"
+  (joystick minimum (button 25))
+  )
+
+ ("button 26 press"
+  (joystick maximum (button 26))
+  )
+
+ ("button 26 release"
+  (joystick minimum (button 26))
+  )
+
+ ("button 27 press"
+  (joystick maximum (button 27))
+  )
+
+ ("button 27 release"
+  (joystick minimum (button 27))
+  )
+
+ ("button 28 press"
+  (joystick maximum (button 28))
+  )
+
+ ("button 28 release"
+  (joystick minimum (button 28))
+  )
+
+ ("modifier 1 on"
+  (modifier #x0001 #x0001)
+  )
+
+ ("modifier 1 off"
+  (modifier #x0000 #x0001)
+  )
+
+ ("modifier 2 on"
+  (modifier #x0002 #x0002)
+  )
+
+ ("modifier 2 off"
+  (modifier #x0000 #x0002)
+  )
+
+ ("modifier 3 on"
+  (modifier #x0004 #x0004)
+  )
+
+ ("modifier 3 off"
+  (modifier #x0000 #x0004)
+  )
+
+ ("modifier 4 on"
+  (modifier #x0008 #x0008)
+  )
+
+ ("modifier 4 off"
+  (modifier #x0000 #x0008)
+  )
+
+ ("modifier 5 on"
+  (modifier #x0010 #x0010)
+  )
+
+ ("modifier 5 off"
+  (modifier #x0000 #x0010)
+  )
+
+ ("button 29 press"
+  (joystick maximum (button 29))
+  )
+
+ ("button 29 release"
+  (joystick minimum (button 29))
+  )
+
+ ("modifier 6 on"
+  (modifier #x0020 #x0020)
+  )
+
+ ("modifier 6 off"
+  (modifier #x0000 #x0020)
+  )
+
+ ("modifier 7 on"
+  (modifier #x0040 #x0040)
+  )
+
+ ("modifier 7 off"
+  (modifier #x0000 #x0040)
+  )
+
+ ("modifier 8 on"
+  (modifier #x0080 #x0080)
+  )
+
+ ("modifier 8 off"
+  (modifier #x0000 #x0080)
+  )
+
+ ("modifier 9 on"
+  (modifier #x0100 #x0100)
+  )
+
+ ("modifier 9 off"
+  (modifier #x0000 #x0100)
+  )
+
+ ("modifier 10 on"
+  (modifier #x0200 #x0200)
+  )
+
+ ("modifier 10 off"
+  (modifier #x0000 #x0200)
+  )
+
+ ("button 30 press"
+  (joystick maximum (button 30))
+  )
+
+ ("button 30 release"
+  (joystick minimum (button 30))
+  )
+
+ ("button 31 press"
+  (joystick maximum (button 31))
+  )
+
+ ("button 31 release"
+  (joystick minimum (button 31))
+  )
+
+ ("button 32 press"
+  (joystick maximum (button 32))
+  )
+
+ ("button 32 release"
+  (joystick minimum (button 32))
+  )
+
+ ("cockpit open/close press"
+  (keyboard press #x003c)
+  )
+
+ ("cockpit open/close release"
+  (keyboard release #x003c)
+  )
+
+ ("guidebot extinguisher press"
+  (keyboard press #x00e1)
+  (delay 10)
+  (keyboard press #x0023)
+  )
+
+ ("guidebot extinguisher release"
+  (keyboard release #x0023)
+  (delay 10)
+  (keyboard release #x00e1)
+  )
+
+ ("right foot pedal forward axis"
+  (joystick ratio z 128 255 127)
+  )
+
+ ("middle foot pedal backward axis"
+  (joystick ratio z -127 255 127)
+  )
+
+ ("guidebot cmd 1 - next goal press"
+  (keyboard press #x00e1)
+  (delay 10)
+  (keyboard press #x001e)
+  )
+
+ ("guidebot cmd 1 - next goal release"
+  (keyboard release #x001e)
+  (delay 10)
+  (keyboard release #x00e1)
+  )
+
+ ("guidebot cmd 2 - spew press"
+  (keyboard press #x00e1)
+  (delay 10)
+  (keyboard press #x001f)
+  )
+
+ ("guidebot cmd 2 - spew release"
+  (keyboard release #x001f)
+  (delay 10)
+  (keyboard release #x00e1)
+  )
+
+ ("guidebot cmd 3 - powerup press"
+  (keyboard press #x00e1)
+  (delay 10)
+  (keyboard press #x0020)
+  )
+
+ ("guidebot cmd 3 - powerup release"
+  (keyboard release #x0020)
+  (delay 10)
+  (keyboard release #x00e1)
+  )
+
+ ("guidebot cmd 4 - energy press"
+  (keyboard press #x00e1)
+  (delay 10)
+  (keyboard press #x0021)
+  )
+
+ ("guidebot cmd 4 - energy release"
+  (keyboard release #x0021)
+  (delay 10)
+  (keyboard release #x00e1)
+  )
+
+ ("guidebot cmd 5 - escort ship press"
+  (keyboard press #x00e1)
+  (delay 10)
+  (keyboard press #x0022)
+  )
+
+ ("guidebot cmd 5 - escort ship release"
+  (keyboard release #x0022)
+  (delay 10)
+  (keyboard release #x00e1)
+  )
+
+ ("guidebot cmd 6 - extinguisher press"
+  (keyboard press #x00e1)
+  (delay 10)
+  (keyboard press #x0023)
+  )
+
+ ("guidebot cmd 6 - extinguisher release"
+  (keyboard release #x0023)
+  (delay 10)
+  (keyboard release #x00e1)
+  )
+
+ ("guidebot cmd 7 - wingnut press"
+  (keyboard press #x00e1)
+  (delay 10)
+  (keyboard press #x0024)
+  )
+
+ ("guidebot cmd 7 - wingnut release"
+  (keyboard release #x0024)
+  (delay 10)
+  (keyboard release #x00e1)
+  )
+
+ ("guidebot cmd 8 - guardian press"
+  (keyboard press #x00e1)
+  (delay 10)
+  (keyboard press #x0025)
+  )
+
+ ("guidebot cmd 8 - guardian release"
+  (keyboard release #x0025)
+  (delay 10)
+  (keyboard release #x00e1)
+  )
+
+ ("guidebot cmd 9 - antivirus press"
+  (keyboard press #x00e1)
+  (delay 10)
+  (keyboard press #x0026)
+  )
+
+ ("guidebot cmd 9 - antivirus release"
+  (keyboard release #x0026)
+  (delay 10)
+  (keyboard release #x00e1)
+  )
+
+ ("guidebot cmd 10 - returntoship press"
+  (keyboard press #x00e1)
+  (delay 10)
+  (keyboard press #x0027)
+  )
+
+ ("guidebot cmd 10 - returntoship release"
+  (keyboard release #x0027)
+  (delay 10)
+  (keyboard release #x00e1)
+  )
+
+ ("right pedal recenter"
+  (joystick middle z)
+  )
+
+ ("middle pedal recenter"
+  (joystick middle z)
+  )
+
+ ("leftmonitormode press"
+  (keyboard press #x00e1)
+  (delay 10)
+  (keyboard press #x003a)
+  )
+
+ ("leftmonitormode release"
+  (keyboard release #x003a)
+  (delay 10)
+  (keyboard release #x00e1)
+  )
+
+ ("rightmonitormode press"
+  (keyboard press #x00e1)
+  (delay 10)
+  (keyboard press #x003b)
+  )
+
+ ("rightmonitormode release"
+  (keyboard release #x003b)
+  (delay 10)
+  (keyboard release #x00e1)
+  )
+
+ )
+
+(event
+ (motion
+  (aiming-lever-x
+   (#x0000 #x0000 "axis X motion")
+   )
+  (aiming-lever-y
+   (#x0000 #x0000 "axis Y motion")
+   )
+  (sight-change-x
+   (#x0000 #x0000 "axis RX motion")
+   )
+  (sight-change-y
+   (#x0000 #x0000 "axis throttle motion")
+   )
+  (rotation-lever
+   (#x0000 #x0000 "axis RZ motion")
+   )
+  (foot-pedal-left
+   (#x0000 #x0000 "middle foot pedal backward axis")
+   )
+  (foot-pedal-center
+   (#x0000 #x0000 "right foot pedal forward axis")
+   )
+  )
+
+ (press
+  (tuner-dial-e
+   )
+  (tuner-dial-ene
+   )
+  (tuner-dial-ne
+   )
+  (tuner-dial-nne
+   )
+  (tuner-dial-n
+   )
+  (tuner-dial-nnw
+   )
+  (tuner-dial-nw
+   )
+  (tuner-dial-wnw
+   )
+  (tuner-dial-w
+   )
+  (tuner-dial-wsw
+   )
+  (tuner-dial-sw
+   )
+  (tuner-dial-ssw
+   )
+  (tuner-dial-s
+   )
+  (tuner-dial-sse
+   )
+  (tuner-dial-se
+   )
+  (tuner-dial-ese
+   )
+  (main-weapon
+   (#x0000 #x0000 "button 1 press")
+   )
+  (sub-weapon
+   (#x0000 #x0000 "button 2 press")
+   )
+  (lock-on
+   (#x0000 #x0000 "button 3 press")
+   )
+  (eject-cmd
+   (#x0000 #x0000 "button 4 press")
+   )
+  (cocpit-hatch
+   (#x0000 #x0000 "button 5 press")
+   )
+  (ignition
+   (#x0000 #x0000 "button 6 press")
+   )
+  (start
+   (#x0000 #x0000 "button 7 press")
+   )
+  (multimonitor-open/close
+   (#x0000 #x0000 "cockpit open/close press")
+   )
+  (multimonitor-map-zoom-in/out
+   (#x0000 #x0000 "button 9 press")
+   )
+  (multimonitor-mode-select
+   (#x0000 #x0000 "leftmonitormode press")
+   )
+  (submonitor-mode-select
+   (#x0000 #x0000 "rightmonitormode press")
+   )
+  (mainmonitor-zoom-in
+   (#x0000 #x0000 "button 12 press")
+   )
+  (mainmonitor-zoom-out
+   (#x0000 #x0000 "button 13 press")
+   )
+  (fss
+   (#x0000 #x0000 "button 14 press")
+   )
+  (manipulator
+   (#x0000 #x0000 "button 15 press")
+   )
+  (line-color-change
+   (#x0000 #x0000 "button 16 press")
+   )
+  (washing
+   (#x0000 #x0000 "button 17 press")
+   )
+  (chaff
+   (#x0000 #x0000 "button 19 press")
+   )
+  (tank-detach
+   (#x0000 #x0000 "button 20 press")
+   )
+  (override
+   (#x0000 #x0000 "button 21 press")
+   )
+  (night-scope
+   (#x0000 #x0000 "button 22 press")
+   )
+  (f1
+   (#x0000 #x0000 "button 23 press")
+   )
+  (f2
+   (#x0000 #x0000 "button 24 press")
+   )
+  (f3
+   (#x0000 #x0000 "button 25 press")
+   )
+  (weapon-control-main
+   (#x0000 #x0000 "button 26 press")
+   )
+  (weapon-control-sub
+   (#x0000 #x0000 "button 27 press")
+   )
+  (weapon-control-magazine-change
+   (#x0000 #x0000 "button 28 press")
+   )
+  (communication-button-1
+   (#x0000 #x0020 "guidebot cmd 1 - next goal press")
+   (#x0020 #x0020 "guidebot cmd 6 - extinguisher press")
+   )
+  (communication-button-2
+   (#x0000 #x0020 "guidebot cmd 2 - spew press")
+   (#x0020 #x0020 "guidebot cmd 7 - wingnut press")
+   )
+  (communication-button-3
+   (#x0000 #x0020 "guidebot cmd 3 - powerup press")
+   (#x0020 #x0020 "guidebot cmd 8 - guardian press")
+   )
+  (communication-button-4
+   (#x0000 #x0020 "guidebot cmd 4 - energy press")
+   (#x0020 #x0020 "guidebot cmd 9 - antivirus press")
+   )
+  (communication-button-5
+   (#x0000 #x0020 "guidebot cmd 5 - escort ship press")
+   (#x0020 #x0020 "guidebot cmd 10 - returntoship press")
+   )
+  (sight-change-button
+   (#x0000 #x0000 "button 29 press")
+   )
+  (filt-control-system
+   (#x0000 #x0000 "modifier 6 on")
+   )
+  (oxygen-supply-system
+   (#x0000 #x0000 "modifier 7 on")
+   )
+  (fuel-flow-rate
+   (#x0000 #x0000 "modifier 8 on")
+   )
+  (buffer-material
+   (#x0000 #x0000 "modifier 9 on")
+   )
+  (vt-location-measurement
+   (#x0000 #x0000 "modifier 10 on")
+   )
+  (foot-pedal-right
+   (#x0000 #x0000 "button 30 press")
+   )
+  )
+
+ (release
+  (main-weapon
+   (#x0000 #x0000 "button 1 release")
+   )
+  (sub-weapon
+   (#x0000 #x0000 "button 2 release")
+   )
+  (lock-on
+   (#x0000 #x0000 "button 3 release")
+   )
+  (eject-cmd
+   (#x0000 #x0000 "button 4 release")
+   )
+  (cocpit-hatch
+   (#x0000 #x0000 "button 5 release")
+   )
+  (ignition
+   (#x0000 #x0000 "button 6 release")
+   )
+  (start
+   (#x0000 #x0000 "button 7 release")
+   )
+  (multimonitor-open/close
+   (#x0000 #x0000 "cockpit open/close release")
+   )
+  (multimonitor-map-zoom-in/out
+   (#x0000 #x0000 "button 9 release")
+   )
+  (multimonitor-mode-select
+   (#x0000 #x0000 "leftmonitormode release")
+   )
+  (submonitor-mode-select
+   (#x0000 #x0000 "rightmonitormode release")
+   )
+  (mainmonitor-zoom-in
+   (#x0000 #x0000 "button 12 release")
+   )
+  (mainmonitor-zoom-out
+   (#x0000 #x0000 "button 13 release")
+   )
+  (fss
+   (#x0000 #x0000 "button 14 release")
+   )
+  (manipulator
+   (#x0000 #x0000 "button 15 release")
+   )
+  (line-color-change
+   (#x0000 #x0000 "button 16 release")
+   )
+  (washing
+   (#x0000 #x0000 "button 17 release")
+   )
+  (chaff
+   (#x0000 #x0000 "button 19 release")
+   )
+  (tank-detach
+   (#x0000 #x0000 "button 20 release")
+   )
+  (override
+   (#x0000 #x0000 "button 21 release")
+   )
+  (night-scope
+   (#x0000 #x0000 "button 22 release")
+   )
+  (f1
+   (#x0000 #x0000 "button 23 release")
+   )
+  (f2
+   (#x0000 #x0000 "button 24 release")
+   )
+  (f3
+   (#x0000 #x0000 "button 25 release")
+   )
+  (weapon-control-main
+   (#x0000 #x0000 "button 26 release")
+   )
+  (weapon-control-sub
+   (#x0000 #x0000 "button 27 release")
+   )
+  (weapon-control-magazine-change
+   (#x0000 #x0000 "button 28 release")
+   )
+  (communication-button-1
+   (#x0000 #x0020 "guidebot cmd 1 - next goal release")
+   (#x0020 #x0020 "guidebot cmd 6 - extinguisher release")
+   )
+  (communication-button-2
+   (#x0000 #x0020 "guidebot cmd 2 - spew release")
+   (#x0020 #x0020 "guidebot cmd 7 - wingnut release")
+   )
+  (communication-button-3
+   (#x0000 #x0020 "guidebot cmd 3 - powerup release")
+   (#x0020 #x0020 "guidebot cmd 8 - guardian release")
+   )
+  (communication-button-4
+   (#x0000 #x0020 "guidebot cmd 4 - energy release")
+   (#x0020 #x0020 "guidebot cmd 9 - antivirus release")
+   )
+  (communication-button-5
+   (#x0000 #x0020 "guidebot cmd 5 - escort ship release")
+   (#x0020 #x0020 "guidebot cmd 10 - returntoship release")
+   )
+  (sight-change-button
+   (#x0000 #x0000 "button 29 release")
+   )
+  (filt-control-system
+   (#x0000 #x0000 "modifier 6 off")
+   )
+  (oxygen-supply-system
+   (#x0000 #x0000 "modifier 7 off")
+   )
+  (fuel-flow-rate
+   (#x0000 #x0000 "modifier 8 off")
+   )
+  (buffer-material
+   (#x0000 #x0000 "modifier 9 off")
+   )
+  (vt-location-measurement
+   (#x0000 #x0000 "modifier 10 off")
+   )
+  (foot-pedal-right
+   (#x0000 #x0000 "button 30 release")
+   )
+  )
+
+ (lower-in
+  )
+
+ (lower-out
+  )
+
+ (upper-in
+  )
+
+ (upper-out
+  )
+
+ )
